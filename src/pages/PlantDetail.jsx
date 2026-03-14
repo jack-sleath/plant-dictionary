@@ -1,9 +1,11 @@
 import { useParams, Link } from 'react-router-dom'
 import { getPlantById } from '../data/usePlants'
+import { useFavourites } from '../context/FavouritesContext'
 
 function PlantDetail() {
   const { id } = useParams()
   const plant = getPlantById(id)
+  const { isFavourite, toggleFavourite } = useFavourites()
 
   if (!plant) {
     return (
@@ -19,6 +21,8 @@ function PlantDetail() {
     )
   }
 
+  const favourited = isFavourite(plant.id)
+
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-3xl mx-auto px-4 py-8">
@@ -33,8 +37,20 @@ function PlantDetail() {
           loading="lazy"
           className="w-full h-72 object-cover rounded-xl mb-6"
         />
-        <h1 className="text-4xl font-bold text-gray-900 mb-1">{plant.commonName}</h1>
-        <p className="text-lg text-gray-500 italic mb-4">{plant.latinName}</p>
+        <div className="flex items-start justify-between gap-4 mb-4">
+          <div>
+            <h1 className="text-4xl font-bold text-gray-900 mb-1">{plant.commonName}</h1>
+            <p className="text-lg text-gray-500 italic">{plant.latinName}</p>
+          </div>
+          <button
+            onClick={() => toggleFavourite(plant.id)}
+            aria-label={favourited ? `Remove ${plant.commonName} from favourites` : `Add ${plant.commonName} to favourites`}
+            aria-pressed={favourited}
+            className="flex-shrink-0 text-3xl leading-none mt-1"
+          >
+            {favourited ? '★' : '☆'}
+          </button>
+        </div>
         <p className="text-gray-700 leading-relaxed mb-6">{plant.description}</p>
         {plant.uses && plant.uses.length > 0 ? (
           <div>
