@@ -1,0 +1,66 @@
+[
+  {
+    "id": "lavender",
+    "commonName": "Lavender",
+    "latinName": "Lavandula angustifolia",
+    "description": "Lavender is an aromatic flowering plant native to the Mediterranean region. It produces spikes of purple flowers on long stems above silvery-green foliage. The plant thrives in well-drained soil and full sun, and is well known for its calming fragrance.",
+    "imageUrl": "https://picsum.photos/seed/lavender/400/300",
+    "uses": ["medicinal", "culinary", "ornamental", "aromatic"]
+  },
+  {
+    "id": "rosemary",
+    "commonName": "Rosemary",
+    "latinName": "Salvia rosmarinus",
+    "description": "Rosemary is a fragrant evergreen shrub with needle-like leaves and small blue or white flowers. Native to the Mediterranean, it is widely cultivated for culinary and medicinal purposes. It prefers dry, sunny conditions and well-drained soil.",
+    "imageUrl": "https://picsum.photos/seed/rosemary/400/300",
+    "uses": ["culinary", "medicinal", "aromatic"]
+  },
+  {
+    "id": "aloe-vera",
+    "commonName": "Aloe Vera",
+    "latinName": "Aloe barbadensis miller",
+    "description": "Aloe vera is a succulent plant species known for its thick, fleshy leaves filled with a clear gel. It is widely used in medicine and cosmetics for its soothing, moisturising, and healing properties. It thrives in warm, dry climates.",
+    "imageUrl": "https://picsum.photos/seed/aloe/400/300",
+    "uses": ["medicinal", "cosmetic"]
+  },
+  {
+    "id": "peppermint",
+    "commonName": "Peppermint",
+    "latinName": "Mentha × piperita",
+    "description": "Peppermint is a hybrid mint plant combining watermint and spearmint. It has a strong, refreshing menthol flavour and is used widely in cooking, teas, and medicine. The plant spreads vigorously via underground runners and thrives in moist soil.",
+    "imageUrl": "https://picsum.photos/seed/peppermint/400/300",
+    "uses": ["culinary", "medicinal", "aromatic"]
+  },
+  {
+    "id": "sunflower",
+    "commonName": "Sunflower",
+    "latinName": "Helianthus annuus",
+    "description": "The sunflower is a tall annual plant native to North America, famous for its large, bright yellow flower heads that track the sun. It is cultivated for its edible seeds and oil, and is widely grown as an ornamental plant.",
+    "imageUrl": "https://picsum.photos/seed/sunflower/400/300",
+    "uses": ["culinary", "ornamental", "agricultural"]
+  },
+  {
+    "id": "chamomile",
+    "commonName": "Chamomile",
+    "latinName": "Matricaria chamomilla",
+    "description": "Chamomile is a daisy-like plant with small white flowers and feathery leaves. It has a long history of use as a calming herbal remedy, particularly for anxiety and sleep. Chamomile tea is one of the most popular herbal infusions worldwide.",
+    "imageUrl": "https://picsum.photos/seed/chamomile/400/300",
+    "uses": ["medicinal", "culinary", "aromatic"]
+  },
+  {
+    "id": "basil",
+    "commonName": "Basil",
+    "latinName": "Ocimum basilicum",
+    "description": "Basil is a tender annual herb with bright green, aromatic leaves. Originally from tropical regions of Asia and Africa, it is now a staple culinary herb in Mediterranean cuisine. It grows best in warm, sunny conditions with regular watering.",
+    "imageUrl": "https://picsum.photos/seed/basil/400/300",
+    "uses": ["culinary", "aromatic"]
+  },
+  {
+    "id": "echinacea",
+    "commonName": "Echinacea",
+    "latinName": "Echinacea purpurea",
+    "description": "Echinacea, also known as coneflower, is a flowering plant native to eastern North America. It produces striking pink-purple flowers with a distinctive spiny central cone. It is widely used in herbal medicine as an immune system booster.",
+    "imageUrl": "https://picsum.photos/seed/echinacea/400/300",
+    "uses": ["medicinal", "ornamental"]
+  }
+]
